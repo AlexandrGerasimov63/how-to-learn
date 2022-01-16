@@ -1,26 +1,32 @@
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+/* @font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter/Inter-Regular.woff') format('woff'),
+       url('../fonts/Inter/Inter/Inter-Regular.woff2') format('woff2');
+  font-weight: normal;
 }
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter/Inter-Bold.woff') format('woff'),
+       url('../fonts/Inter/Inter/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter/Inter-SemiBold.woff') format('woff'),
+       url('../fonts/Inter/Inter/Inter-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+} */
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-}
+@import url('../blocks/pages/page.css');
+
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
+
+
+  /* z-index: -10; */
+  /* transition: transform 6s;
+  transform: rotate(360deg); */
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -28,4 +34,50 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+/* Секция main
+Блок discription */
+
+
+
+
+
+
+
+
+
+/* Блок Techniques */
+
+
+
+
+
+
+.digits{
+  margin-top: 100px;
+}
+.table{
+  margin:0 auto;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.table__cell{
+  width: 250px;
+  margin-top: 60px;
+}
+.table__heading{
+  margin:0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+}
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  margin:0;
+  margin-top: 20px;
 }
