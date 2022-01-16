@@ -54,30 +54,4 @@
 
 
 
-.digits{
-  margin-top: 100px;
-}
-.table{
-  margin:0 auto;
-  width: 1100px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 100px;
-}
-.table__cell{
-  width: 250px;
-  margin-top: 60px;
-}
-.table__heading{
-  margin:0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 700;
-}
-.table__text{
-  line-height: 1.2;
-  font-size: 18px;
-  margin:0;
-  margin-top: 20px;
-}
+
