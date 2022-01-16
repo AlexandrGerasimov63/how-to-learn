@@ -1,0 +1,6 @@
+@import url('../digits/table/table.css');
+@import url('../digits/table/__text/_theme_dark/table__text_theme_dark.css');
+.kaufman{
+  margin: 100px auto 0px;
+  background-color: #1f1f1f;
+}
