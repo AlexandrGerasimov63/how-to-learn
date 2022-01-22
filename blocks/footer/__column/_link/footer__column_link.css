@@ -1,0 +1,9 @@
+.footer__column_link{
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: opacity .5s ease;
+}
+
+.footer__column_link:hover{
+  opacity: 0.5;
+}
