@@ -7,3 +7,5 @@
 @import url('./oakley/oakley.css');
 @import url('./feynman/feynman.css');
 @import url('./khan/khan.css');
+@import url('./section/__title/section__title.css');
+@import url('./section/__subtitle/section__subtitle.css');

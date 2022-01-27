@@ -1,7 +1,8 @@
-.khun__book-pick{
+.khan__book-pick{
   width: 620px;
   height: 608px;
-  background-image: url('../../../../../images/khan-book.jpg');
   background-repeat: no-repeat;
   margin-right: 48px;
+  object-fit: cover;
+  object-position: top;
 }

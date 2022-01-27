@@ -1,0 +1,12 @@
+.footer__column-link{
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: opacity .5s ease;
+}
+
+.footer__column-link:hover{
+  opacity: 0.5;
+}
+.footer__column-link:last-child{
+  margin-bottom: 0px;
+}

@@ -1,4 +1,5 @@
-.feynman-illustration{
+.feynman__illustration{
+  background-image: url('../../../../images/feinman.png');
   position: absolute;
   width: 867px;
   height: 637px;

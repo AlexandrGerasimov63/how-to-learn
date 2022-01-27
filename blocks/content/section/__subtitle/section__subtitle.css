@@ -1,5 +1,5 @@
-@import url('./-subtitle_theme_dark/section-subtitle_theme_dark.css');
-.section-subtitle{
+@import url('./_theme_dark/section__subtitle_theme_dark.css');
+.section__subtitle{
   text-align: center;
   width: 60%;
   margin: 20px auto 0;

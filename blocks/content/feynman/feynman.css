@@ -1,10 +1,10 @@
-@import url('./-title/feynman-title.css');
-@import url('./-subtitle/feynman-subtitle.css');
-@import url('./-link/feynman-link.css');
-@import url('./-illustration/feynman-illustration.css');
+@import url('./__title/feynman__title.css');
+@import url('./__subtitle/feynman__subtitle.css');
+@import url('./__link/feynman__link.css');
+@import url('./__illustration/feynman__illustration.css');
 .feynman{
   box-sizing: border-box;
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   padding-top: 100px;
   margin:0 auto;

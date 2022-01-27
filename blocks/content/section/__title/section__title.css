@@ -1,5 +1,5 @@
-@import url('./-title_theme-dark/section-tetle_theme-dark.css');
-.section-title{
+@import url('./_theme_dark/section__title_theme_dark.css');
+.section__title{
   display: block;
   width: 60%;
   text-align: center;
